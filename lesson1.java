@@ -15,6 +15,7 @@ public class Main {
 public class Main {
     public static void main(String[] args) {
         String a = new String("Wow");
+        // used to be String b = "Wow"
         String b = a;
         String c = a + "!";
         String d = c;
