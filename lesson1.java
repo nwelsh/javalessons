@@ -6,7 +6,7 @@
 public class Main {
     public static void main(String[] args) {
         byte zero = 0;
-        String output = "W" + zero + "w";
+        String output = "W" + zero + "w"; //output: W0w
         System.out.println(output);
     }
 }
