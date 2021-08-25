@@ -18,7 +18,7 @@ public class Main {
         // used to be String b = "Wow"
         String b = a;
         String c = a + "!"; // added !
-        String d = c;
+        String d = c; // so that makes this true becuase we did not equals
 
         boolean b1 = a == b;
         boolean b2 = d.equals(b + "!");
