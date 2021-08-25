@@ -17,7 +17,7 @@ public class Main {
         String a = new String("Wow");
         // used to be String b = "Wow"
         String b = a;
-        String c = a + "!";
+        String c = a + "!"; // added !
         String d = c;
 
         boolean b1 = a == b;
