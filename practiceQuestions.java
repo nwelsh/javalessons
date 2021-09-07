@@ -45,3 +45,4 @@ public Hospital(double var3) {
 }
 
 // method overloading 
+// similar to constructor overlaoding, but with methods 
