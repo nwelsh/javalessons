@@ -59,3 +59,19 @@ class OverloadingHelp {
    }
 }
 // you use find area 1 if there is a 2d shape and find area 2 if there is a 3d shape 
+
+// another example.... if there are the same method for two different classes 
+
+class HumanBeing {
+       public int walk (int distance, int time) {
+               int speed = distance / time;
+               return speed;
+       }
+}
+class Athlete extends HumanBeing {
+       public int walk(int distance, int time) {
+               int speed = distance / time;
+               speed = speed * 2;
+               return speed;
+       }
+}
