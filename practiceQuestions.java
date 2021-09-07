@@ -43,3 +43,5 @@ public Hospital(double var3) {
  variable3 = var3
 }
 }
+
+// method overloading 
