@@ -14,3 +14,9 @@ String athleteName; // these are local
 double athleteSpeed;
 int athleteAge;
 }
+
+// how do you have an infinite loop 
+for (;;)
+{
+   
+}
