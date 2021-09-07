@@ -26,3 +26,20 @@ while(true){
 do {
 
 }while(true);
+
+// constructor overloading 
+// when you have many constructors and each have their own parameters and are used at different times 
+class Example {
+int variable1, variable2;
+double variable3;
+public Example(int var1, int var2) {
+ variable1 = var1;
+ variable2 = var2;
+}
+public Hospital(int var1) {
+ variable1 = var1;
+}
+public Hospital(double var3) {
+ variable3 = var3
+}
+}
